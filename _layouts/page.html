@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="https://klaminite1337.github.io/assets/css/main.css">
   <!--//reee dont murder me i know this is richards css but its so useful sometimes.-->
   <link rel="stylesheet" type="text/css" href="https://stallman.org/common/stallman.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <script>
 var images = [
     {
@@ -56,20 +58,102 @@ div1 {
   width: 100px;
 }
 h31 {
-  color: lightblue;
+  color: black;
+}
+columns {
+  width: 1px; /* Or zero, or something very small */
+  margin: auto;
+  overflow: visible;
+  background: red; /* A color just for debug */
+}
+divmain {
+  top:0;
+  right:0;
+  width:200px;
 }
 
+.nav-pills-justified
+{
+    text-align: center;
+    width: 100%;
+    min-width:980px;
+    background: #EDEDED;
+    color: #000000;
+    height: 50px;
+    list-style-type: none;
+}
+.nav-pills-justified li
+{
+    display: inline-block;
+}
+.nav-pills-justified li a
+{
+    text-decoration: none;
+    padding: 15px 25px;
+    display: inline-block;
+}
+.nav-pills-justified li a:hover
+{
+    background: red;
+}
+body, html {
+    height: 50%;
+}
 
+.bg {
+    /* The image used */
+    background-image: url("/home/klaminite/Documents/VNcpisI.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+  position: relative;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 5px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+divcent  {
+  width: 50%;
+  margin: 0 auto;
+}
 </style>
 </head>
 
     <body class="subtitleElementID">
+
+
+
 <span id="subtitleElementID"></span>
       <nav class="navbar navbar-inverse">
   <div class="container-fluid">
 
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
+
         <li class="active"><a href="#">Home</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">Posts<span class="caret"></span></a>
@@ -78,22 +162,23 @@ h31 {
           </ul>
         </li>
 
-
-      </ul>
-      <ul class="nav navbar-nav navbar-center">
-
-
-
       </ul>
     </div>
   </div>
 </nav>
+<!-- Sidebar -->
+<div class="bg"><div class="caption">
+    <span class="border">Klaminites Site</span><br>
+  </div></div>
 
-      <div1>
-        <h3 style="text-align: center; color: lightblue;"> Exposed </h3>
-        <p style="text-align: center; color: white;">"Man is least himself when he talks in his own person. Give him a mask, and he will tell you the truth." -
-Oscar Wilde</p>
-      </div>
+<div id="divcent" style="text-align: center;">
+  <div class="w3-panel w3-leftbar w3-light-grey">
+  <p class="w3-xlarge w3-serif">
+  <i>"Make it as simple as possible, but not simpler."</i></p>
+  <p>Albert Einstein</p>
+</div>
+</div>
+
         <!--<div class="alert alert-success" role="alert"><script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script>
         //use this timer code when we need it again.
     // Set the date we're counting down to
@@ -138,9 +223,63 @@ Oscar Wilde</p>
 
 
 
-</div><h1> </h1>
 </div>
-</section><div class="col-md-12">
+</div>
+</div>
+<div class="columns">
+  <div class="column2">
+    <h4 style="text-align: center;">Recent Science News</h4>
+    <div>
+     <div>
+<!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="47619/"></script> <!-- end feedwind code -->
+   </div>
+ </div>
+</div>
+</div>
+<div class="columns">
+  <div class="column3">
+    <h4 style="text-align: center;">Projects</h4>
+    <div>
+      <div>
+        <ul>Nothing here right now</ul>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+</section>
+<section id="about">
+  <div1 class="col-md-8">
+<div class="container">
+<div class="column1">
+<h4 style="text-align: center;">Politics and Foreign Affairs</h4>
+<div class="row">
+<div>
+<ul>
+{%include themes/bootstrap-3/page.html %}
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div1>
+<div1 class="col-md-4">
+  <div class="container">
+  <div class="column1">
+  <h4 style="text-align: center;">Projects/Misc</h4>
+  <div class="row">
+  <div>
+    <ul>
+    {%include themes/bootstrap-3/page.html %}
+    </ul>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div1>
+</section>
+</div>
 <footer class="footer">
   <p>© Klaminite</p>
   <p>Built using Logic and Reasoning <span class="love">❤</span></p>
@@ -158,6 +297,18 @@ Oscar Wilde</p>
     ga('create', '', 'auto');
     ga('send', 'pageview');
 </script>
-
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
 
 </body></html>
