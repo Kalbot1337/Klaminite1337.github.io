@@ -35,20 +35,16 @@ var images = [
         src : 'http://lorempixel.com/1000/1000/nature/'
     }
 ];
-
 function setBackground (images) {
     // generates a random integer between 0 and the length of the supplied array:
     var n = Math.floor(Math.random() * images.length),
         // works out whether to use the 'textContent' or 'innerText' property:
         textProperty = 'textContent' in document ? 'textContent' : 'innerText';
-
     // sets the background-image of the 'body' element:
     document.body.style.backgroundImage = 'url(' + images[n].src + ')';
-
     // sets the text of the relevant subtitle element:
     document.getElementById('subtitleElementID')[textProperty] = images[n].subtitle;
 }
-
 setBackground(images);
 </script>
 <style>
@@ -71,7 +67,6 @@ divmain {
   right:0;
   width:200px;
 }
-
 .nav-pills-justified
 {
     text-align: center;
@@ -99,20 +94,16 @@ divmain {
 body, html {
     height: 50%;
 }
-
 .bg {
     /* The image used */
     background-image: url("/home/klaminite/Documents/VNcpisI.jpg");
-
     /* Full height */
     height: 100%;
-
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .caption {
   position: relative;
   left: 0;
@@ -121,7 +112,6 @@ body, html {
   text-align: center;
   color: #000;
 }
-
 .caption span.border {
   background-color: #111;
   color: #fff;
@@ -129,7 +119,6 @@ body, html {
   font-size: 25px;
   letter-spacing: 5px;
 }
-
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -140,7 +129,6 @@ divcent  {
   width: 50%;
   margin: 0 auto;
 }
-<<<<<<< HEAD
 </style>
 </head>
 
@@ -183,16 +171,13 @@ divcent  {
         <!--<div class="alert alert-success" role="alert"><script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script>
         //use this timer code when we need it again.
     // Set the date we're counting down to
-
     var countDownDate = new Date("July 15, 2017 24:00:00").getTime();
     // Update the count down every 1 second
     var x = setInterval(function() {
         // Get todays date and time
         var now = new Date().getTime();
-
         // Find the distance between now an the count down date
         var distance = countDownDate - now;
-
         // Time calculations for days, hours, minutes and seconds
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -202,170 +187,6 @@ divcent  {
         // Output the result in an element with id="demo"
         document.getElementById("demo").innerHTML = days + "d " + hours + "h "
         + minutes + "m " + seconds + "s ";
-
-        // If the count down is over, write some text
-        if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("demo").innerHTML = "EXPIRED";
-        }
-    }, 1000);
-    </script>-->
-
-<section id="about">
-              <div1 class="col-md-12">
-<div class="container">
-  <div class="column1">
-      <h4 style="text-align: center;">Articles</h4>
-        <div class="row">
-  <div>
-<ul>
-  {%include themes/bootstrap-3/page.html %}
-</ul>
-
-
-
-</div>
-</div>
-</div>
-<div class="columns">
-  <div class="column2">
-    <h4 style="text-align: center;">Recent Science News</h4>
-    <div>
-     <div>
-<!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="47619/"></script> <!-- end feedwind code -->
-   </div>
- </div>
-</div>
-</div>
-</div>
-</section>
-<section id="about">
-  <div1 class="col-md-8">
-<div class="container">
-<div class="column1">
-<h4 style="text-align: center;">Politics and Foreign Affairs</h4>
-<div class="row">
-<div>
-<ul>
-{%include themes/bootstrap-3/page.html %}
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div1>
-<div1 class="col-md-4">
-  <div class="container">
-  <div class="column1">
-  <h4 style="text-align: center;">Projects/Misc</h4>
-  <div class="row">
-  <div>
-    <ul>
-    {%include themes/bootstrap-3/page.html %}
-    </ul>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div1>
-</section>
-</div>
-<footer class="footer">
-  <p>© Klaminite</p>
-  <p>Built using Logic and Reasoning <span class="love">❤</span></p>
-</footer>
-</div>
-    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="https://klaminite1337.github.io/assets/js/sweet-scroll.min.js"></script>
-    <script src="https://klaminite1337.github.io/assets/js/main.js"></script>
-    <!-- Google Analytics -->
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', '', 'auto');
-    ga('send', 'pageview');
-</script>
-<script>
-function w3_open() {
-  document.getElementById("main").style.marginLeft = "25%";
-  document.getElementById("mySidebar").style.width = "25%";
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("openNav").style.display = 'none';
-}
-function w3_close() {
-  document.getElementById("main").style.marginLeft = "0%";
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("openNav").style.display = "inline-block";
-}
-</script>
-
-</body></html>
-=======
-</style>
-</head>
-
-    <body class="subtitleElementID">
-
-
-
-<span id="subtitleElementID"></span>
-      <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-
-        <li class="active"><a href="#">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">Posts<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-			    {%include themes/bootstrap-3/page.html %}
-          </ul>
-        </li>
-
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- Sidebar -->
-<div class="bg"><div class="caption">
-    <span class="border">Klaminites Site</span><br>
-  </div></div>
-
-<div id="divcent" style="text-align: center;">
-  <div class="w3-panel w3-leftbar w3-light-grey">
-  <p class="w3-xlarge w3-serif">
-  <i>"Make it as simple as possible, but not simpler."</i></p>
-  <p>Albert Einstein</p>
-</div>
-</div>
-
-        <!--<div class="alert alert-success" role="alert"><script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script>
-        //use this timer code when we need it again.
-    // Set the date we're counting down to
-
-    var countDownDate = new Date("July 15, 2017 24:00:00").getTime();
-    // Update the count down every 1 second
-    var x = setInterval(function() {
-        // Get todays date and time
-        var now = new Date().getTime();
-
-        // Find the distance between now an the count down date
-        var distance = countDownDate - now;
-
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        document.getElementById("demot").innerHTML = "Time until new build:"
-        // Output the result in an element with id="demo"
-        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-        + minutes + "m " + seconds + "s ";
-
         // If the count down is over, write some text
         if (distance < 0) {
             clearInterval(x);
@@ -461,4 +282,3 @@ function w3_close() {
 </script>
 
 </body></html>
->>>>>>> 002a573ef563ac258446fe0387ce28d997856cea
