@@ -7,15 +7,15 @@ I understand I'm late to the party on this one, by a matter of 5-6 months to be 
 
 ## Enter: The Internet
 
-The internet is, without any objection, one of the most innovative additions to humanities resources since the invention of the steam engine. From it, it has sprouted global economies, new-age encrypted currencies, boosted the active participation in stocks and global trading systems, improved the rate of production, and overall increased the standard of living, compared to say, the 1930's.
+The internet is, without any objection, one of the most innovative additions to humanities resources since the invention of the steam engine. From it, it has sprouted global economies, new-age encrypted currencies, boosted the active participation in stocks and global trading systems, improved the rate of production, and overall increased the standard of living.
 
-It should be neccesary to start from beginnings. We observe two gentlemen, Paul Baran and Donald Davies. What they were working on was a subject called packet switching for networks of computers. This led to the inception of our everyday TCP packet, or UDP packet. It's not important or vital to the article what a TCP or UDP packet exactly is, however I have made them hyper links for those looking for better understanding. One of their networks was a network known as ARPANET, which would soon be platformed on fifteen total university and private locations by the end of 1971.
+It should be neccesary to start from the beginning. We observe two gentlemen, Paul Baran and Donald Davies. What they were working on was a subject called packet switching for networks of computers. This led to the inception of our everyday TCP packet, or UDP packet. It's not important or vital to the article what a [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) or [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)  packet exactly is, however I have made them hyper links for those looking for better understanding. One of their networks was a network known as ARPANET, which would soon be platformed on fifteen total university and private locations by the end of 1971.
 
-1973 brought about the succsessful satallite links from the Tanum Earth Station to Peter Kirsteins research group in the UK, now situtated at the University College London. Fast foward to 1982, both the popular term "_internet_" and the Internet Protocol Suite (IPS) TCP/IP were officially recognized as standard. This allowed networks similar to ARPANET to disperse and populate the globe.
+1973 brought about the succsessful satallite link from the Tanum Earth Station to Peter Kirsteins research group in the UK, now situtated at the University College London. Fast foward to 1982, both the popular term "_internet_" and the Internet Protocol Suite (IPS) TCP/IP were officially recognized as standard. This allowed networks similar to ARPANET to disperse and populate the globe.
 
-Commercially, the story truely starts in 1989 with MCI mail and Compuserve's email capabilities to the 500,000 members of the internet. Then, in 1990, PSInet launches an alternative platform for commercial distribution/useage, one that will serve the commercial internet to this date. In that same year, the first high speed T1 link averaging 1.5 megabits per second is installed Cornell University and CERN. This marked the beginning of the end for satallite communication. Six months following the first link, Tim Berners-Lee begins work on the first web browser, titled the WorldWideWeb. By christmas of that same year Tim had built all the tools in for the WorldWideWeb, HTTP 0.9, The Hypertext Markup Language, the browser itself, and the first web pages. 
+Commercially, the story officially starts in 1989 with MCI mail and Compuserve's email capabilities to the 500,000 members of the internet. Then, in 1990, PSInet launches an alternative platform for commercial distribution/useage, one that will serve the commercial internet backbone to this date. In that same year, the first high speed T1 link averaging 1.5 megabits per second is installed Cornell University and CERN. This marked the beginning of the end for satallite communication. Six months following the first link, Tim Berners-Lee begins work on the first web browser, titled the WorldWideWeb. By christmas of that same year Tim had built all the tools in for the WorldWideWeb, HTTP 0.9, The Hypertext Markup Language, the browser itself, and the first web pages. 
 
-Everything after this comparable to opening a can of soda that's been shaked, some estimations regarding the growth of internet traffic claims that the growth grows at a rate of 100 percent a year, while the mean number of users annually was thought to be between 20 and 50 percent.
+Everything after this is comparable to opening a can of soda that's been shaked, some estimations regarding the growth of internet traffic claims that the traffic grows at a rate of 100 percent a year, while the mean number of users annually was thought to be between 20 and 50 percent.
 
 List of Companies/Sites that started in the 1990s : 
 * Netscape (which moulded into the form of mozilla thanks to open source code)
@@ -44,7 +44,7 @@ List of companies utilizing the web in the 1990's:
 * CompuServe
 * Sears
 
-In the 2000's the internet truely became a monolithic powerhouse of innovation, creativity, and a well of inspiration. Breeding corporatate giants such as Facebook, Google, Microsun, etc. Microsoft windows releases windows 2000 in 2000, followed later in september of that year with Windows ME, AMD and Intel both release chips clocked to one gigahertz each, sony releases the famed play station two. Mac OSX is released in march of 2001, three months after the Linux kernal version 2.4.0 is released. Followed in suite with xbox released at the end of the year. In total, the 2000's is the golden age of technological innovation from big corporations.
+In the 2000's the internet truely became a monolithic powerhouse of innovation, creativity, and a well of inspiration. Breeding corporatate giants such as Facebook, Google, and Microsun. Microsoft windows releases windows 2000 in 2000, followed later in september of that year with Windows ME. AMD and Intel both release chips clocked to one gigahertz each. Sony releases the famed play station two. Mac OSX is released in march of 2001, three months after the Mac OSX release, Linux kernal version 2.4.0 is released. Followed in suite with xbox released at the end of the year. In total, the 2000's is the golden age of technological innovation from big corporations.
 
 Between 2000 and 2007, internet broadband usage had hit 80 percent, leading to broadband becoming a standard for quality internet. Music sales and downloads followed suite, leading to new compression and encoding algorithms, the inception of apple ipod. Due to popular usage, "_google_" is officially recognized as a verb. Open source software becomes more and more abundant, leading to the rise in popularity of open source operating systems such as FreeBSD and Linux. By 2004, the video games industry profit had surpassed that of the movie industry. Youtube was created, in part because of adobe flash's increasingly powerful capabilities.
 
@@ -55,8 +55,8 @@ Things are looking good for the computer and the internet.
 In this section we will observe the increase in the progress of humanity based off a free and open internet, declare the rules and protections that Net Neutrality imposes on us, and the arguements both for and against, devoid of opinion. During this time, many of the most groundbreaking innovations occur in that of artificial intelligence, robotics, web server development, data sciences, IT, and many of the other fields of communications that would be too abudnant to list. This is in part because there is access to open source software, allowing authors to contribute and improve already existing libraries and software. Another part is the fact that databases, normally considered free by the authors themselves, aren't charging users money to allow them to be an operable unit.
 
 ### What Does Net Neutrality Say?:
-Allow the document itself to do the speaking:
-https://www.scribd.com/doc/258494173/FCC-15-24A1#download&from_embed
+Allow the [document](https://transition.fcc.gov/Daily_Releases/Daily_Business/2015/db0312/FCC-15-24A1.pdf) itself to do the speaking
+
 #### Arguements for Net Neutrality:
 
 The arguements for net neutrality state that the ideas and princaples of a free and open net is one that is devoid of corporate greed and tampering, be it for extra money in exchange for faster services, or for extra money for services normally taken for granted today. Here is a list of the ideas that those who support net neutrality present:
@@ -67,9 +67,13 @@ The arguements for net neutrality state that the ideas and princaples of a free 
 * A repeal would encourage further consolidation.
 
 For point one, an example can be presented that goes as follows: Imagine that you were using comcast, a supporter of a candidate you didn't support, any website speaking against that candidate that comcast supports can now be censored. Anything from blog posts debunking and proving points against a canidate, all the way up to major news outlets such as _Washington Post_, or _MSNBC_, or _Fox News_. 
+
 For point two, an example can be presented as follows: Given a smaller company with no real income, and given a larger company that presents a majority of profit, comcast or AT&T could favor the larger company, simply due to the fact that there is more money to gain. This pushes the smaller business 
+
 For point three, an example can be presented as follows: Imagine that a new internet service provider were to come onto the scene. It almost instantly is going to lose every single deal, simply in part because of the idea that the person who arrives first onto a scene and lays cables, they now own and control those cables.
+
 For point four, a situation can be drawn up as: Imagine that you are a lower paying consumer, incapable of paying three hundred dollars a month for premium internet, you will now have capped data for those that do pay for those levels of speed from the internet.
+
 For point 5, see source 3.
 
 ##### Arguements against Network Neutrality
@@ -80,7 +84,7 @@ The arguements against net neutrality are in opposite to that of those who want 
 * "True net neutrality can't be achieved."
 * "The solution is searching for a problem"
 
-for all three cases, I recommend attending the third source listed, as they play devils advocate better then I would, and give a more fair representation of the side.
+For all three cases, I recommend attending the third source listed, as they play devils advocate better then I would, and give a more fair representation of the side.
 
 ###### Arguements for neither side
 
@@ -91,7 +95,9 @@ In many cases, there will always be a neutral party. One that does not enjoy the
 * don't find it an issue worth fighting.
 
 In many cases, people in more rural/agricultural areas of the country do not use nor need the internet. 
+
 Most people, be it due to working long shifts or just not having the time, nor never even hearing about net neutrality and the fight against the FCC, will not understand the consequences that this will bring without reading into it.
+
 Most people who simply do not need the internet will find it a useless point for them to fight for, as it doesn't directly affect them.
 
 ## The Future (OP ED)
