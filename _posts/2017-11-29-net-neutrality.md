@@ -50,14 +50,14 @@ Between 2000 and 2007, internet broadband usage had hit 80 percent, leading to b
 
 Things are looking good for the computer and the internet.
 
-##The Present (2007-2017)
+## The Present (2007-2017)
 
 In this section we will observe the increase in the progress of humanity based off a free and open internet, declare the rules and protections that Net Neutrality imposes on us, and the arguements both for and against, devoid of opinion. During this time, many of the most groundbreaking innovations occur in that of artificial intelligence, robotics, web server development, data sciences, IT, and many of the other fields of communications that would be too abudnant to list. This is in part because there is access to open source software, allowing authors to contribute and improve already existing libraries and software. Another part is the fact that databases, normally considered free by the authors themselves, aren't charging users money to allow them to be an operable unit.
 
 ### What Does Net Neutrality Say?:
 Allow the document itself to do the speaking:
 https://www.scribd.com/doc/258494173/FCC-15-24A1#download&from_embed
-####Arguements for Net Neutrality:
+#### Arguements for Net Neutrality:
 
 The arguements for net neutrality state that the ideas and princaples of a free and open net is one that is devoid of corporate greed and tampering, be it for extra money in exchange for faster services, or for extra money for services normally taken for granted today. Here is a list of the ideas that those who support net neutrality present:
 * Protects freedom of Speech and Press along with in certain cases assembly
@@ -72,7 +72,7 @@ For point three, an example can be presented as follows: Imagine that a new inte
 For point four, a situation can be drawn up as: Imagine that you are a lower paying consumer, incapable of paying three hundred dollars a month for premium internet, you will now have capped data for those that do pay for those levels of speed from the internet.
 For point 5, see source 3.
 
-#####Arguements against Network Neutrality
+##### Arguements against Network Neutrality
 
 The arguements against net neutrality are in opposite to that of those who want to keep, and are generally based off the grounds of ease, practicality, and big corporations. As a note, few arguements are presented on the opposing side, which is why there are fewer then the previous segments.
 
@@ -82,7 +82,7 @@ The arguements against net neutrality are in opposite to that of those who want 
 
 for all three cases, I recommend attending the third source listed, as they play devils advocate better then I would, and give a more fair representation of the side.
 
-######Arguements for neither side
+###### Arguements for neither side
 
 In many cases, there will always be a neutral party. One that does not enjoy the dog fighting the two primary sides are commiting against each other. In many scenarios, these are voters who will not vote at all, or critics that don't take a stance for one movement or the other, but rather just enjoy the wealth of content that both sides bring in.
 
@@ -94,14 +94,17 @@ In many cases, people in more rural/agricultural areas of the country do not use
 Most people, be it due to working long shifts or just not having the time, nor never even hearing about net neutrality and the fight against the FCC, will not understand the consequences that this will bring without reading into it.
 Most people who simply do not need the internet will find it a useless point for them to fight for, as it doesn't directly affect them.
 
-##The Future (OP ED)
+## The Future (OP ED)
 
-	Some can make the claim that, before this year, the future was looking bright for the internet. Artificial intelligence and robotics were reaching peaks of innovation. Generative Adversial Networks is harolded as this decades most influential work on artificial intelligence, and the [paper](https://arxiv.org/abs/1406.2661) is sourced well over 1000 times. If I was asked back in 2007, when I first recieved my dell laptop that my was my fathers old work computer, and began writing batch scripts and visual basic. Most of the material that I've used in my quest to learn programming languages have been from the internet. Most of the bug fixes and security patches that I've used have also been found on the internet. Suppose I can no longer pay for these, I am no longer able to make open source secure software. Imagine how big of a hit the IT industry would take if people just stopped learning on their own and entering the field, getting certified. 
-	Another point that can be made is one that counters the idea that restricting what the big corporations can do also in turn restricts the free market. I can't disagree more. This point is very contradictary, even if you assume that the big corporations will play nicely and allow small businesses to grow and expand, which they won't, people will still go to the bigger corporations just because of their reputation and reliability. If I was a first time internet user, I would go for the big name companies simply because I've heard of them more often. Another thing to note, religious, political, and certain social groups can be censored and even blacklisted from many social media sites, preventing a free opinion and expression. For example, conservatives, whilst you may not agree with them, still deserve the same grounds of speaking that anyone else does. Freedom of speech does not have an inherit "spectrum" or "allowance" on it, however that's a topic for another day.
-	It's also worth noting that the current statistics of people who know about net neutrality, **98 percent** of them support **KEEPING** net neutrality. If, on december 14th, net neutrality is not kept safe, imagine the backlash from the general populus that not only the fcc would recieve, but also the united states goverment, as if the current backlash wasn't enough. Many of my relatives and friends have stated that they would indeed protest if the repeal is actually gone through with. Another point to  address is the crowds that are resilent on remaining neutral, or having an opinion and not speaking up about it. This is not something that affects just internet users. Businesses and the economic tractor **THRIVE** off of a free and open internet. Many independent stock traders and cryptocurrencies run off the basis of a free and open internet. In fact, as of recent, bitcoin ($BTC) had recently hit $11k. Now imagine if net neutrality wasn't a thing, and comcast decided to block bitcoin because it did not agree with it as a viable replacement for the united states dollar.
-	Overall, I find it really low how FCC is supposed to be the one fighting the corporations, not caving into them. FCC board, if you're reading this, I hope you understand that in the future, no one will thank you for this, because no one will be able to communicate for under $30. Knowledge should not be something that you get to charge an arm and a leg for, more or less charge anyone who pays close to $200 a month MORE on top of that just so they can watch a few youtube videos.
+   Some can make the claim that, before this year, the future was looking bright for the internet. Artificial intelligence and robotics were reaching peaks of innovation. Generative Adversial Networks is harolded as this decades most influential work on artificial intelligence, and the [paper](https://arxiv.org/abs/1406.2661) is sourced well over 1000 times. If I was asked back in 2007, when I first recieved my dell laptop that my was my fathers old work computer, and began writing batch scripts and visual basic. Most of the material that I've used in my quest to learn programming languages have been from the internet. Most of the bug fixes and security patches that I've used have also been found on the internet. Suppose I can no longer pay for these, I am no longer able to make open source secure software. Imagine how big of a hit the IT industry would take if people just stopped learning on their own and entering the field, getting certified. 
+   
+   Another point that can be made is one that counters the idea that restricting what the big corporations can do also in turn restricts the free market. I can't disagree more. This point is very contradictary, even if you assume that the big corporations will play nicely and allow small businesses to grow and expand, which they won't, people will still go to the bigger corporations just because of their reputation and reliability. If I was a first time internet user, I would go for the big name companies simply because I've heard of them more often. Another thing to note, religious, political, and certain social groups can be censored and even blacklisted from many social media sites, preventing a free opinion and expression. For example, conservatives, whilst you may not agree with them, still deserve the same grounds of speaking that anyone else does. Freedom of speech does not have an inherit "spectrum" or "allowance" on it, however that's a topic for another day.
+   
+   It's also worth noting that the current statistics of people who know about net neutrality, **98 percent** of them support **KEEPING** net neutrality. If, on december 14th, net neutrality is not kept safe, imagine the backlash from the general populus that not only the fcc would recieve, but also the united states goverment, as if the current backlash wasn't enough. Many of my relatives and friends have stated that they would indeed protest if the repeal is actually gone through with. Another point to  address is the crowds that are resilent on remaining neutral, or having an opinion and not speaking up about it. This is not something that affects just internet users. Businesses and the economic tractor **THRIVE** off of a free and open internet. Many independent stock traders and cryptocurrencies run off the basis of a free and open internet. In fact, as of recent, bitcoin ($BTC) had recently hit $11k. Now imagine if net neutrality wasn't a thing, and comcast decided to block bitcoin because it did not agree with it as a viable replacement for the united states dollar.
+   
+   Overall, I find it really low how FCC is supposed to be the one fighting the corporations, not caving into them. FCC board, if you're reading this, I hope you understand that in the future, no one will thank you for this, because no one will be able to communicate for under $30. Knowledge should not be something that you get to charge an arm and a leg for, more or less charge anyone who pays close to $200 a month MORE on top of that just so they can watch a few youtube videos.
 
-I hope today I managed to inform, and challange or support those who are arguing against, and for, net neutrality. In the end, december 14th, the day that freedom online could very well end, is approaching fast. I advise those who want to do something, but don't know where to start, to start here:
+   I hope today I managed to inform, and challange or support those who are arguing against, and for, net neutrality. In the end, december 14th, the day that freedom online could very well end, is approaching fast. I advise those who want to do something, but don't know where to start, to start here:
 
 [Battle For The Net](https://www.battleforthenet.com/)
 
@@ -113,6 +116,8 @@ I hope today I managed to inform, and challange or support those who are arguing
 * Youtube Videos:
    * [Fight for the Future](https://youtu.be/UsyzP5hejxI)
    * [The Internet Is UNDER ATTACK, Net Neutrality is Dying, and What You Can Do...](https://youtu.be/OHOkdEBpwDc)
+   
+   
 >"Ajit Pai, former Verizon lawyer and current chairman of the FCC, is expected to circulate the text of his rule and announce a vote to gut net neutrality protections on November 22, the day before Thanksgiving.
 > Once the FCC announces a vote (which would likely be at its open meeting in December), it will become much, much harder to stop them from gutting the rules that prevent companies like Comcast, Verizon, and AT&T from charging us all extra fees to access sites like reddit, and controlling what we see and do online by throttling, blocking, and censoring websites, apps, games, and streaming services.
 
@@ -121,7 +126,11 @@ I hope today I managed to inform, and challange or support those who are arguing
 ## Sources
 
 [1] https://www.nbcnews.com/tech/tech-news/yahoo-aol-gone-here-s-look-back-internet-graveyard-n742551
+
 [2] https://techcrunch.com/2017/05/19/these-are-the-arguments-against-net-neutrality-and-why-theyre-wrong/
+
 [3] https://www.washingtonpost.com/news/the-fix/wp/2017/11/23/how-to-argue-about-net-neutrality-and-why-you-should/?utm_term=.263d2104657e
+
 [4] https://consumerist.com/2015/03/20/where-did-everyone-from-the-90s-go-when-we-all-got-facebook-and-quit-web-1-0/
+
 
