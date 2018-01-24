@@ -17,39 +17,9 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  <script>
-var images = [
-    {
-        subtitle : 'Subtitle text for image one...',
-        src : 'http://placekitten.com/1000/1000'
-    },
-    {
-        subtitle : 'Subtitle text for image two...',
-        src : 'http://lorempixel.com/1000/1000/people/'
-    },
-    {
-        subtitle : 'Subtitle text for image three...',
-        src : 'http://lorempixel.com/1000/1000/nightlife/'
-    },
-    {
-        subtitle : 'Subtitle text for image four...',
-        src : 'http://lorempixel.com/1000/1000/nature/'
-    }
-];
-function setBackground (images) {
-    // generates a random integer between 0 and the length of the supplied array:
-    var n = Math.floor(Math.random() * images.length),
-        // works out whether to use the 'textContent' or 'innerText' property:
-        textProperty = 'textContent' in document ? 'textContent' : 'innerText';
-    // sets the background-image of the 'body' element:
-    document.body.style.backgroundImage = 'url(' + images[n].src + ')';
-    // sets the text of the relevant subtitle element:
-    document.getElementById('subtitleElementID')[textProperty] = images[n].subtitle;
-}
-setBackground(images);
-</script>
 <style>
 @import "{{ site.theme }}";
+
 div1 {
   background-color: white;
   margin: 0 auto;
@@ -95,17 +65,9 @@ divmain {
 }
 body, html {
     height: 50%;
+    background-image: url("1.jpg");
 }
-.bg {
-    /* The image used */
-    background-image: url("/home/klaminite/Documents/VNcpisI.jpg");
-    /* Full height */
-    height: 100%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .caption {
   position: relative;
   left: 0;
@@ -130,10 +92,18 @@ h3 {
 divcent  {
   width: 50%;
   margin: 0 auto;
+  background-image: url("2.gif");
+}
+div2 {
+  background-image: url("2.gif");
 }
 </style>
-</head>
 
+<!-- Begin
+showImage();
+//  End -->
+</script>
+</head>
     <body class="subtitleElementID">
 
 
@@ -149,7 +119,46 @@ divcent  {
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">Posts<span class="caret"></span></a>
           <ul class="dropdown-menu">
-			    {%include themes/bootstrap-3/page.html %}
+			    <div class="page-header">
+  <h1> </h1>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <p>##</p>
+
+<ul class="posts">
+
+    <li><span>29 Nov 2017</span> &raquo; <a href="/net-neutrality">Net Neutrality</a></li>
+
+    <li><span>29 Oct 2017</span> &raquo; <a href="/os-release">Os Release</a></li>
+
+    <li><span>10 Sep 2017</span> &raquo; <a href="/theory-time-1">Theory Time #1</a></li>
+
+    <li><span>15 Aug 2017</span> &raquo; <a href="/i-have-returned">I have returned!</a></li>
+
+    <li><span>02 Jul 2017</span> &raquo; <a href="/thoughts-on-surveillance">Thoughts on Surveillance</a></li>
+
+    <li><span>01 Jul 2017</span> &raquo; <a href="/new-stack-and-other-things">New Stack And Other Things</a></li>
+
+    <li><span>30 May 2017</span> &raquo; <a href="/software-release-soon">Software Release Soon</a></li>
+
+    <li><span>15 May 2017</span> &raquo; <a href="/the-return">new post</a></li>
+
+    <li><span>13 Apr 2017</span> &raquo; <a href="/the-first-real-step">The First Real Step</a></li>
+
+    <li><span>12 Apr 2017</span> &raquo; <a href="/the-idea-takes-shape">The Idea Takes Shape</a></li>
+
+    <li><span>10 Apr 2017</span> &raquo; <a href="/a-new-idea">a new idea</a></li>
+
+    <li><span>09 Apr 2017</span> &raquo; <a href="/my-thoughts-on-ai">My thoughts on AI </a></li>
+
+</ul>
+
+
+  </div>
+</div>
+
           </ul>
         </li>
 
@@ -158,9 +167,10 @@ divcent  {
   </div>
 </nav>
 <!-- Sidebar -->
-<div class="bg"><div class="caption">
+<div class="jumbotron" style="background: url('2.gif')">
+<div style="background: color url('2.gif')"><div class="caption">
     <span class="border">Klaminites Site</span><br>
-  </div></div>
+  </div>
 
 <div id="divcent" style="text-align: center;">
   <div class="w3-panel w3-leftbar w3-light-grey">
@@ -169,7 +179,8 @@ divcent  {
   <p>Albert Einstein</p>
 </div>
 </div>
-
+</div>
+</div>
         <!--<div class="alert alert-success" role="alert"><script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script>
         //use this timer code when we need it again.
     // Set the date we're counting down to
@@ -205,7 +216,29 @@ divcent  {
         <div class="row">
   <div>
 <ul>
-  {%include themes/bootstrap-3/page.html %}
+  <div class="page-header">
+  <h1> </h1>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <p>##</p>
+
+<ul class="posts">
+
+
+
+</ul>
+
+
+  </div>
+  <div>
+<ul>
+{%include themes/bootstrap-3/page.html %}
+</ul>
+
+</div>
+
 </ul>
 
 
